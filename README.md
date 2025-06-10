@@ -1,16 +1,17 @@
 <div align="center">
 
-![Badee Logo](/public/icon.png)
+<img src="/public/icon.png" alt="Badee Logo" width="100px" height="100px">
 
 # Badee App Landing Page
 
 Badee is a mindfulness app for Buddhism with Koenawin tracking, recitation counter, and a meditation timer.
 
-    <div>
-      <a href="https://badee.vercel.app" title="Visit Badee App">
-      <img src="/public/screenshots/android/cover.png" alt="Badee App Screenshot" width="100%">
-      </a>
-    </div>
+<div>
+  <a href="https://badee-landing.vercel.app" title="Visit Badee App">
+  <img src="/public/screenshots/android/cover.png" alt="Badee App Screenshot" width="100%">
+  </a>
+</div>
+
 </div>
 
 ---
