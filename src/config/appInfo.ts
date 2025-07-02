@@ -2,7 +2,7 @@ import type { AppLogo, StoreLinks } from "./types";
 
 export const appInfo = {
   title: "Badee",
-  description: "A mindfulness app for Buddhism with Koenawin tracking, recitation counter, and a meditation timer.",
+  description: "A mindfulness app for Buddhists, with Koenawin tracking, recitation counter, and a meditation timer.",
   logo: {
     type: "image" as AppLogo["type"],
     src: "icon.png",

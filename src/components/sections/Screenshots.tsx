@@ -68,10 +68,10 @@ const Screenshots = ({ images }: ScreenshotsProps) => {
               {
                 currentImages.length === 0 &&
 									<div
-										className={`relative border-secondary/80 bg-primary flex items-center w-[260px] aspect-[9/16] overflow-hidden rounded-xl focus:outline-none`}
+										className={`relative border-secondary/80 bg-primary/10 flex items-center w-[260px] aspect-[9/16] overflow-hidden rounded-xl focus:outline-none`}
 									>
-                    <p className="text-center text-[40px] font-bold text-secondary leading-tight ml-4">
-                    Coming<br/>soon...
+                    <p className="text-center text-3xl font-bold text-primary/50 leading-tight ml-4">
+                    Coming soon
                     </p>
                   </div>
               }

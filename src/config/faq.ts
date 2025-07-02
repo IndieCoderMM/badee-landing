@@ -3,7 +3,7 @@ import type { FAQ } from "./types";
 export const faq: FAQ[] = [
   {
     "question": "What is the Koenawin?",
-    "answer": "Koenawin is a 91-day practice of reciting the Supreme Qualities of the Buddha."
+    "answer": "Koenawin is a 81-day practice of reciting the Supreme Qualities of the Buddha."
   },
   {
     "question": "Do I need an internet connection to use the app?",

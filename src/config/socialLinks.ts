@@ -17,7 +17,7 @@ export const socialLinks: SocialLink[] = [
 		label: "Telegram",
 	},
 	{
-		url: "indiecodermm@gmail.com",
+		url: "mailto:indiecodermm@gmail.com",
 		icon: RiMailFill,
 		label: "Email",
 	},

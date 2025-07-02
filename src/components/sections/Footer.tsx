@@ -18,8 +18,7 @@ const Footer: React.FC = () => {
 				<p>
 					&copy; {new Date().getFullYear()}{" "}
 					<span className="text-text/80">{siteConfig.title}</span>
-					<br />
-					All rights reserved.
+          {" "}All rights reserved.
 				</p>
 			</div>
 		</footer>
