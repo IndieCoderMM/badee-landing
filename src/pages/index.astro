@@ -4,6 +4,7 @@ import FAQ from "@components/sections/FAQ";
 import Features from "@components/sections/Features";
 import Screenshots from "@components/sections/Screenshots";
 import SocialLinks from "@components/sections/SocialLinks";
+import FeedbackForm from "@components/sections/FeedbackForm";
 import Lightbox from "@components/ui/Lightbox";
 import Layout from "@layouts/Layout.astro";
 import { siteConfig } from "../config";
@@ -31,6 +32,7 @@ const {
 
     <Features items={features} />
     <FAQ items={faqs} client:visible />
+    <FeedbackForm  client:load />
     <SocialLinks items={socialLinks} />
   </main>
 </Layout>

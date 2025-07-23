@@ -36,7 +36,7 @@ const AppHero = ({ title, description, storeLinks, logo }: AppHeroProps) => {
 					<StoreButton
 						store="apkpure"
 						href={storeLinks.apkPure}
-						label="Download the app on"
+						label="Download App on"
 						storeName="ApkPure"
 					/>
 					<StoreButton
@@ -62,6 +62,7 @@ const StoreButton = memo(
 				rel="noopener noreferrer"
 				className="group flex items-center gap-3 rounded-xl cursor-pointer border border-primary/10 bg-secondary/10 px-5 py-3 transition-all duration-300 hover:bg-primary hover:border-primary shadow-sm shadow-black/[0.02]"
         download={store === "direct" ? "badee.apk": undefined}
+        data-umami-event={store === "direct" ? "APK Download" : `${storeName} Download`}
 			>
 				<div className="flex items-center justify-center w-7 h-7">
 					<Icon

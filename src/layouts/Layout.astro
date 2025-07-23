@@ -25,6 +25,7 @@ const { showFooter = true } = Astro.props;
     {description && <meta property="og:description" content={description} />}
     <meta name="theme-color" content="#ffffff" />
     <title>{title}</title>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="5c5488cb-b463-4df9-967a-8f3a3d0cce94"></script>
     <script>
       history.scrollRestoration = "manual";
       window.addEventListener("load", () => {
@@ -33,7 +34,6 @@ const { showFooter = true } = Astro.props;
     </script>
   </head>
   <body class="bg-background font-sans text-text">
-    <GithubCorner href="https://github.com/indiecodermm/badee-landing" />
     <div class="mx-auto min-h-screen max-w-[800px]">
       <PageAnimation client:load>
         <main>

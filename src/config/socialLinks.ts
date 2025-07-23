@@ -1,18 +1,13 @@
 import {
-    RiFacebookFill,
+	RiLinkedinFill,
 	RiMailFill,
 	RiTelegram2Fill,
 } from "react-icons/ri";
 import type { SocialLink } from "./types";
 
 export const socialLinks: SocialLink[] = [
-	{
-		url: "#",
-		icon: RiFacebookFill,
-		label: "Facebook",
-	},
-	{
-		url: "#",
+  {
+		url: "https://t.me/BadeeApp",
 		icon: RiTelegram2Fill,
 		label: "Telegram",
 	},
